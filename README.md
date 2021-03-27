@@ -12,7 +12,7 @@ https://www.gyan.dev/ffmpeg/builds/packages/
 ### USAGE
 
 #### paramete
-1. media_type
+1. media_type <br>
 a. movie : mp4
 b. audio : mp3
 
