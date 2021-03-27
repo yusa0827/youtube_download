@@ -12,12 +12,12 @@ https://www.gyan.dev/ffmpeg/builds/packages/
 ### USAGE
 
 #### paramete
-1. media_type
+1. media_type <br>
 a. movie : mp4
 b. audio : mp3
 
-2. folder_path
+2. folder_path <br>
 set folder for downloaded file
 
-3. urls
+3. urls <br>
 set yotube URL you want media
