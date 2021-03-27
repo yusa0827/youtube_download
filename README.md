@@ -8,10 +8,9 @@ pip install youtube_dl
 #### ffmpeg
 https://www.gyan.dev/ffmpeg/builds/packages/
 
-
 ### USAGE
 
-#### parameter 
+#### parameters
 1. media_type <br>
 a. movie : mp4
 b. audio : mp3
