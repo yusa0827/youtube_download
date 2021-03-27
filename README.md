@@ -11,7 +11,11 @@ https://www.gyan.dev/ffmpeg/builds/packages/
 
 ### USAGE
 
+<<<<<<< HEAD
 #### parameters
+=======
+#### parameter 
+>>>>>>> 45c4cc3d9bae28a4a914f5c16d76dadf47f1586f
 1. media_type <br>
 a. movie : mp4
 b. audio : mp3
