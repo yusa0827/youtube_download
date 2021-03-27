@@ -9,7 +9,7 @@ def main():
     ]
     output_joined_audio_file = "output.mp3"
 
-    url_folderpath_paramater = {
+    paramaters = {
         "media_type":media_type, 
         "folder_path":folder_path , 
         "url":urls,
@@ -17,7 +17,7 @@ def main():
     }
 
     youtube_dl = JOIN_AUDIO_FILES()
-    youtube_dl.set_parameter(url_folderpath_paramater)
+    youtube_dl.set_parameter(paramaters)
     youtube_dl.donwload()
 
     if media_type == "mp3":
