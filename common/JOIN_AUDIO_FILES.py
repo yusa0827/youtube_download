@@ -1,4 +1,4 @@
-import sys, os, subprocess
+import os
 from pydub import AudioSegment
 from common.YOUTUBE_DOWNLOAD import YOUTUBE_DOWNLOAD
 

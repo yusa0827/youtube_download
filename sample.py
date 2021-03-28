@@ -1,4 +1,5 @@
-from common.JOIN_AUDIO_FILES import JOIN_AUDIO_FILES
+# from common.JOIN_AUDIO_FILES import JOIN_AUDIO_FILES
+from common.GOOGLE_DRIVE_UPLOAD import GOOGLE_DRIVE_UPLOAD
 
 def main():
     media_type = "mp3"
@@ -16,12 +17,13 @@ def main():
         "output_joined_audio_file":output_joined_audio_file
     }
 
-    youtube_dl = JOIN_AUDIO_FILES()
+    youtube_dl = GOOGLE_DRIVE_UPLOAD()
     youtube_dl.set_parameter(paramaters)
     youtube_dl.donwload()
 
     if media_type == "mp3":
         youtube_dl.join_audio_file_to_audio_file()
+        youtube_dl.upload_file()
 
 if __name__ == "__main__" :
     main()
