@@ -12,7 +12,7 @@ class YOUTUBE_DOWNLOAD:
         self.urls               = paramaters["url"]
         self.set_output_folder_path()
         if self.media_type == "mp3":
-            self.output_file_name   = paramaters["output_joined_audio_file"]
+            self.output_file_name   = paramaters["output_audio_integrator_file"]
 
     def is_folder_made_if_not_exit(self):
         if not os.path.exists(self.output_folder_path):#ディレクトリがなかったら
@@ -42,4 +42,4 @@ class YOUTUBE_DOWNLOAD:
     def donwload(self):
         for url in self.urls:
             self.get_youtube_mp3(url)
-
+            
